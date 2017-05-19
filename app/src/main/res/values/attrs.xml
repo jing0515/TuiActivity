@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义textView -->
+    <declare-styleable name="CustomTextView">
+        <attr name="customText"  format="string"  />
+        <attr name="customTextColor"  format="color"/>
+        <attr name="customTextSize" format="dimension" />
+    </declare-styleable>
+
+
+    <!-- 自定义进度条 -->
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor"  format="color" />
+        <attr name="secondColor" format="color" />
+        <attr name="circleWidth" format="dimension" />
+        <attr name="speed" format="integer"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.bawei.lvwenjing.tuiactivity.CustomProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:firstColor="@color/colorAccent"
+        custom:secondColor="#00FF00"
+        custom:circleWidth="10dp"
+        />
+
+
+</LinearLayout>
